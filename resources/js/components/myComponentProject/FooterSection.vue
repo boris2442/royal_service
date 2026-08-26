@@ -30,7 +30,7 @@
                     <p
                         class="text-xs leading-relaxed text-card-foreground/80 sm:text-sm"
                     >
-                        Votre partenaire événementiel de confiance à Baganté.
+                        Votre partenaire événementiel de confiance à Bangangté.
                         Nous transformons vos rêves en réalité avec créativité,
                         professionnelisme et une touche d'excellence
                         camerounaise.
@@ -157,7 +157,7 @@
                                     Adresse
                                 </p>
                                 <p class="font-semibold text-card-foreground">
-                                    Bafoussam, Cameroun
+                                    Bangangté, Cameroun
                                 </p>
                             </div>
                         </div>
@@ -192,7 +192,7 @@
                             class="font-semibold text-secondary transition-colors hover:text-primary"
                             >Aubin Boris
                         </a>
-                        à Bafoussam, Cameroun
+                        à Bangangté, Cameroun
                     </p>
                 </div>
 

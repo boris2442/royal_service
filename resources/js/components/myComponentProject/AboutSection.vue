@@ -1,7 +1,5 @@
 <template>
-    <section
-        class="relative w-full overflow-hidden bg-background py-16 "
-    >
+    <section class="relative w-full overflow-hidden bg-background py-16">
         <!-- Arrière-plan avec overlay sombre et halos lumineux -->
         <div
             class="pointer-events-none absolute inset-0 bg-gradient-to-b from-background via-card/50 to-background"
@@ -76,9 +74,9 @@
                 <p
                     class="text-base leading-relaxed font-semibold text-foreground sm:text-lg"
                 >
-                    Entreprise événementielle basée à Baganté, spécialisée dans
-                    l'organisation globale de cérémonies, le service traiteur
-                    gastronomique et la logistique de réception.
+                    Entreprise événementielle basée à Bangangté, spécialisée
+                    dans l'organisation globale de cérémonies, le service
+                    traiteur gastronomique et la logistique de réception.
                 </p>
 
                 <p
