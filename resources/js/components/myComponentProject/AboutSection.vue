@@ -1,6 +1,6 @@
 <template>
     <section
-        class="relative w-full overflow-hidden bg-background py-16 md:py-24"
+        class="relative w-full overflow-hidden bg-background py-16 "
     >
         <!-- Arrière-plan avec overlay sombre et halos lumineux -->
         <div

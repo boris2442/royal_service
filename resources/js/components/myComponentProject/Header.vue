@@ -147,6 +147,7 @@
             </Link>
         </nav>
     </div>
+    <FloatingActions/>
 </template>
 
 <script setup>
@@ -161,6 +162,7 @@ import {
     Mail,
     Crown,
 } from '@lucide/vue';
+import FloatingActions from './FloatingActions.vue';
 
 const page = usePage();
 

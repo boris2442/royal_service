@@ -6,6 +6,9 @@ import { dashboard, login } from '@/routes';
 import { register } from '@/routes';
 import HeroSection from '@/components/myComponentProject/HeroSection.vue';
 import AboutSection from '@/components/myComponentProject/AboutSection.vue';
+import GallerySection from '@/components/myComponentProject/GallerySection.vue';
+import FooterActions from '@/components/myComponentProject/FooterActions.vue';
+import FooterSection from '@/components/myComponentProject/FooterSection.vue';
 
 const page = usePage();
 const dashboardUrl = computed(() =>
@@ -20,7 +23,9 @@ const dashboardUrl = computed(() =>
     </Head>
     <div class="pt-20 pb-20 lg:pt-24 lg:pb-12">
         <Header />
-        <HeroSection/>
-        <AboutSection/>
+        <HeroSection />
+        <AboutSection />
+        <GallerySection />
+        <FooterSection />
     </div>
 </template>
