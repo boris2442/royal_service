@@ -6,7 +6,10 @@
 @source '../../storage/framework/views/*.php';
 
 @custom-variant dark (&:is(.dark *));
-
+.serviceFont{
+    font-family: 'Great Vibes', cursive;
+  
+}
 @theme inline {
     --font-sans:
         Instrument Sans, ui-sans-serif, system-ui, sans-serif,

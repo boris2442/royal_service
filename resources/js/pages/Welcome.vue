@@ -9,6 +9,7 @@ import AboutSection from '@/components/myComponentProject/AboutSection.vue';
 import GallerySection from '@/components/myComponentProject/GallerySection.vue';
 import FooterActions from '@/components/myComponentProject/FooterActions.vue';
 import FooterSection from '@/components/myComponentProject/FooterSection.vue';
+import AppLoader from '@/components/myComponentProject/AppLoader.vue';
 
 const page = usePage();
 const dashboardUrl = computed(() =>
@@ -17,10 +18,12 @@ const dashboardUrl = computed(() =>
 </script>
 
 <template>
+   
     <Head title="Welcome">
         <link rel="preconnect" href="https://rsms.me/" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     </Head>
+    <AppLoader/>
     <div class="pt-20 pb-20 lg:pt-24 lg:pb-12">
         <Header />
         <HeroSection />

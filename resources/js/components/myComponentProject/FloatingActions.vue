@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed right-6 bottom-6 z-50 flex flex-col items-center gap-3">
+    <div class="fixed right-3 bottom-8 z-50 flex flex-col items-center gap-3">
         <!-- Bouton Retour en Haut -->
         <Transition
             enter-active-class="transition-all duration-300 ease-out"
@@ -54,7 +54,7 @@
             <span
                 class="pointer-events-none absolute top-1/2 right-16 -translate-y-1/2 rounded-lg border border-border bg-card px-3 py-1.5 text-xs font-medium whitespace-nowrap text-card-foreground opacity-0 shadow-lg transition-all duration-300 group-hover:-translate-x-1 group-hover:opacity-100"
             >
-                Discuter avec ETS ROYAL Service
+                Discuter avec ETS ROYAL <span class="serviceFont">Service</span>
             </span>
         </a>
     </div>

@@ -19,7 +19,8 @@
                             <h3
                                 class="text-lg leading-tight font-bold text-foreground"
                             >
-                                ETS ROYAL Service
+                                ETS ROYAL
+                                <span class="serviceFont">Service</span>
                             </h3>
                             <p class="text-xs font-medium text-secondary">
                                 Événementiel & Traiteur
@@ -177,8 +178,10 @@
                     <p>
                         ©2026
                         <span class="font-semibold text-secondary"
-                            >ETS ROYAL Service</span
-                        >. Tous droits réservés.
+                            >ETS ROYAL
+                            <span class="serviceFont">Service</span>
+                        </span>
+                        . Tous droits réservés.
                     </p>
                     <p
                         class="inline-flex items-center justify-center gap-1 md:justify-start"
@@ -194,6 +197,11 @@
                         </a>
                         à Bangangté, Cameroun
                     </p>
+                </div>
+
+                <!-- Dark Mode Toggle -->
+                <div class="flex items-center justify-center">
+                    <ThemeToggle />
                 </div>
 
                 <!-- Liens Légaux -->
@@ -224,14 +232,14 @@ import {
     Mail,
     MapPin,
     Heart,
-    Server,
 } from '@lucide/vue';
+import ThemeToggle from './ThemeToggle.vue';
 
 const navLinks = [
     { label: 'Prestations', href: '#prestations' },
     { label: 'Agence', href: '#agence' },
     { label: 'Galerie', href: '#galerie' },
-    { label: 'Réalisations', href: '#portfolio' },
+    { label: 'Portfolio', href: '#portfolio' },
 ];
 
 const popularServices = [

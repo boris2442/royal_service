@@ -57,9 +57,9 @@
                 >
                     <Bookmark class="h-6 w-6" />
                     <h2
-                        class="text-2xl font-extrabold tracking-wide uppercase sm:text-4xl"
+                        class="text-2xl font-extrabold tracking-wide  sm:text-4xl"
                     >
-                        ETS ROYAL SERVICE
+                        ETS ROYAL <span class="serviceFont">Service</span>
                     </h2>
                 </div>
                 <p class="text-sm font-medium text-foreground/80 sm:text-base">
@@ -112,7 +112,7 @@
                     class="flex items-center gap-4 rounded-2xl border border-border bg-card p-4 shadow-sm transition-transform duration-300 hover:-translate-y-1 sm:p-5"
                 >
                     <div
-                        class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-primary dark:bg-secondary/15 dark:text-secondary"
+                        class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-primary dark:bg-secondary/15 dark:text-secondary"
                     >
                         <component :is="stat.icon" class="h-6 w-6" />
                     </div>

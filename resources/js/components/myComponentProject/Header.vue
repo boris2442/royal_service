@@ -2,18 +2,18 @@
     <!-- =========================================================
          HEADER SUPERIEUR FIXE (Desktop & Mobile)
     ========================================================== -->
+  
     <header
         class="fixed inset-x-0 top-0 z-50 transition-all duration-500"
         :class="[
             isScrolled
                 ? 'border-b border-border/50 bg-background/95 py-2.5 shadow-md backdrop-blur-xl'
-                : 'bg-primary-dark/95 py-3.5 backdrop-blur-md',
+                : 'bg-primary-dark py-3.5',
         ]"
     >
         <div
             class="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8"
         >
-        
             <!-- LOGO -->
             <!-- LOGO -->
             <Link
@@ -42,9 +42,8 @@
                     </span>
 
                     <span
-                        class="-mt-2.5 block text-lg font-normal tracking-normal capitalize sm:text-xl italic"
+                        class="serviceFont -mt-2.5 block text-lg font-normal tracking-normal capitalize italic sm:text-xl"
                         :class="isScrolled ? 'text-foreground' : 'text-white'"
-                        style="font-family: 'Great Vibes', cursive"
                     >
                         Service
                     </span>
@@ -147,7 +146,7 @@
             </Link>
         </nav>
     </div>
-    <FloatingActions/>
+    <FloatingActions />
 </template>
 
 <script setup>
