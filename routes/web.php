@@ -24,6 +24,10 @@ Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index
 Route::get('/api/galerie-data', [GalleryController::class, 'fetchPhotos'])->name('api.gallery.data');
 Route::inertia('/restaurant', 'Restaurant')->name('restaurant');
 Route::inertia('/contact', 'Contact')->name('contact');
+Route::inertia('/cgu', 'Cgu')->name('cgu');
+Route::inertia('/mentions-legales', 'MentionLegale')->name('mentions-legales');
+Route::inertia('/politique-confidentialite', 'PolitiqueDeConfidentialite')->name('politique-confidentialite');
+
 
 
 Route::prefix('{current_team}')

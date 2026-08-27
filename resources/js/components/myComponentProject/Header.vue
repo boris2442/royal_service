@@ -2,7 +2,7 @@
     <!-- =========================================================
          HEADER SUPERIEUR FIXE (Desktop & Mobile)
     ========================================================== -->
-  
+
     <header
         class="fixed inset-x-0 top-0 z-50 transition-all duration-500"
         :class="[
@@ -152,6 +152,10 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import { Link, usePage } from '@inertiajs/vue3';
+
+
+
+
 import {
     Sparkles,
     Building2,

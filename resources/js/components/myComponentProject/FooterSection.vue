@@ -69,7 +69,7 @@
                     </h4>
                     <ul class="space-y-2.5 text-sm">
                         <li v-for="(item, index) in navLinks" :key="index">
-                            <a
+                            <Link
                                 :href="item.href"
                                 class="inline-flex items-center gap-2 text-card-foreground/80 transition-colors hover:text-secondary"
                             >
@@ -77,7 +77,7 @@
                                     class="h-1.5 w-1.5 rounded-full bg-secondary"
                                 ></span>
                                 {{ item.label }}
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -206,16 +206,16 @@
 
                 <!-- Liens Légaux -->
                 <div class="flex flex-wrap items-center justify-center gap-2">
-                    <a href="#" class="transition-colors hover:text-secondary"
-                        >Conditions Générales</a
+                    <Link href="/cgu" class="transition-colors hover:text-secondary"
+                        >Conditions Générales</Link
                     >
                     <span>|</span>
-                    <a href="#" class="transition-colors hover:text-secondary"
-                        >Politique de Confidentialité</a
+                    <Link href="/politique-confidentialite" class="transition-colors hover:text-secondary"
+                        >Politique de Confidentialité</Link
                     >
                     <span>|</span>
-                    <a href="#" class="transition-colors hover:text-secondary"
-                        >Mentions Légales</a
+                    <Link href="/mentions-legales" class="transition-colors hover:text-secondary"
+                        >Mentions Légales</Link
                     >
                 </div>
             </div>
@@ -234,12 +234,12 @@ import {
     Heart,
 } from '@lucide/vue';
 import ThemeToggle from './ThemeToggle.vue';
-
+import { Link } from '@inertiajs/vue3';
 const navLinks = [
-    { label: 'Prestations', href: '#prestations' },
-    { label: 'Agence', href: '#agence' },
-    { label: 'Galerie', href: '#galerie' },
-    { label: 'Portfolio', href: '#portfolio' },
+    { label: 'Prestations', href: '/prestations' },
+    { label: 'Agence', href: '/agence' },
+    { label: 'Galerie', href: '/galerie' },
+    { label: 'Realisations', href: '/realisations' },
 ];
 
 const popularServices = [
