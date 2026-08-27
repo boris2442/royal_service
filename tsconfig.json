@@ -121,5 +121,5 @@
         "resources/js/**/*.d.ts",
         "resources/js/**/*.tsx", 
         "resources/js/**/*.vue"
-    ]
+, "public/G1.vue"    ]
 }

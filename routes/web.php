@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AgenceController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\PrestationController;
 use App\Http\Controllers\Teams\TeamInvitationController;
 use App\Http\Middleware\EnsureTeamMembership;
@@ -13,7 +14,14 @@ Route::get('/agence', [AgenceController::class, 'index'])->name('agence');
 Route::get('/prestations', [PrestationController::class, 'index'])->name('prestation');
 
 Route::inertia('/realisations', 'Realisations')->name('realisations');
-Route::inertia('/galerie', 'Galerie')->name('galerie');
+// Route::inertia('/galerie', 'Galerie')->name('galerie');
+// Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index');
+
+// Route Inertia pour la page HTML
+Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index');
+
+// Route API dédiée pour l'Infinite Scroll & Filtres (Axios)
+Route::get('/api/galerie-data', [GalleryController::class, 'fetchPhotos'])->name('api.gallery.data');
 Route::inertia('/restaurant', 'Restaurant')->name('restaurant');
 Route::inertia('/contact', 'Contact')->name('contact');
 

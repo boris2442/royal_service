@@ -52,5 +52,7 @@ createInertiaApp({
     },
 });
 
-initializeTheme();
-initializeFlashToast();
+
+    initializeTheme();
+    initializeFlashToast();
+

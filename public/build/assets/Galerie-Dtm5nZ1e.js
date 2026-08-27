@@ -1,0 +1,1 @@
+import{Gt as e,Z as t}from"./dist-Dx57nUcf.js";import{t as n}from"./app-DwAMFF_8.js";var r=Object.assign({layout:n},{__name:`Galerie`,setup(n){return(n,r)=>(e(),t(`h1`,null,`Restaurant`))}});export{r as default};
