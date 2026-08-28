@@ -1,1 +1,0 @@
-import{$ as e,Rt as t,W as n}from"./runtime-dom.esm-bundler-CsTSpFzE.js";import{n as r}from"./app-D46EPAsx.js";var i=e({layout:r,__name:`Realisations`,setup(e){return(e,r)=>(t(),n(`h1`,null,`Realisations`))}});export{i as default};

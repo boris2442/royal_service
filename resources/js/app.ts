@@ -1,4 +1,3 @@
-
 import { createInertiaApp, router } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createApp, h, type DefineComponent } from 'vue';
@@ -13,28 +12,21 @@ import { initializeFlashToast } from '@/lib/flashToast';
 
 const appName = import.meta.env.VITE_APP_NAME || 'Royal Services';
 
-type LayoutType =
-    | DefineComponent
-    | [DefineComponent, DefineComponent]
-    | null;
+type LayoutType = DefineComponent | [DefineComponent, DefineComponent] | null;
 
 const getLayout = (name: string): LayoutType => {
     if (name === 'Welcome') {
         return null;
     }
-
+if (name === 'Realisations') {
+        return null;
+    }
     if (name.startsWith('auth/')) {
         return AuthLayout as unknown as DefineComponent;
     }
 
-    if (
-        name.startsWith('settings/') ||
-        name.startsWith('teams/')
-    ) {
-        return [
-            AppLayout,
-            SettingsLayout,
-        ] as unknown as [
+    if (name.startsWith('settings/') || name.startsWith('teams/')) {
+        return [AppLayout, SettingsLayout] as unknown as [
             DefineComponent,
             DefineComponent,
         ];
@@ -43,67 +35,21 @@ const getLayout = (name: string): LayoutType => {
     return PublicLayout as unknown as DefineComponent;
 };
 
-
-
-
-
-router.on('before', (event) => {
-    console.log('🟡 INERTIA before:', {
-        url: event.detail.visit.url,
-        method: event.detail.visit.method,
-    });
-});
-
-router.on('start', (event) => {
-    console.log('🟢 INERTIA start:', event.detail.visit.url);
-});
-
-router.on('progress', (event) => {
-    console.log('🔵 INERTIA progress:', event.detail.progress);
-});
-
-router.on('finish', (event) => {
-    console.log('🟣 INERTIA finish:', {
-        url: event.detail.visit.url,
-        completed: event.detail.visit.completed,
-        interrupted: event.detail.visit.interrupted,
-        cancelled: event.detail.visit.cancelled,
-    });
-});
-
-router.on('navigate', (event) => {
-    console.log('🚀 INERTIA navigate:', event.detail.page.url);
-});
-
-router.on('exception', (event) => {
-    console.error('💥 INERTIA exception:', event.detail.exception);
-});
-
-
-
-
-
-
-
-
-
-
-
-
 createInertiaApp({
-    title: (title) =>
-        title ? `${title} - ${appName}` : appName,
+    title: (title) => (title ? `${title} - ${appName}` : appName),
 
     resolve: async (name: string) => {
+        const pages = import.meta.glob<DefineComponent>('./pages/**/*.vue');
         const page = await resolvePageComponent<DefineComponent>(
             `./pages/${name}.vue`,
-            import.meta.glob<DefineComponent>(
-                './pages/**/*.vue',
-            ),
+            pages,
         );
 
-        page.default.layout =
-            page.default.layout || getLayout(name);
+        // Assure un comportement prédictif avec les composants ESM
+        const defaultPage = page.default;
+        if (defaultPage.layout === undefined) {
+            defaultPage.layout = getLayout(name);
+        }
 
         return page;
     },
@@ -130,4 +76,3 @@ createInertiaApp({
 
 initializeTheme();
 initializeFlashToast();
-

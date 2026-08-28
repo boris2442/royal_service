@@ -4,10 +4,15 @@ import FooterSection from '@/components/myComponentProject/FooterSection.vue';
 </script>
 
 <template>
-    <Header />
-    <!-- Compensation de la hauteur du header (ex: pt-16, pt-20 ou pt-24 selon la hauteur exacte) -->
-    <main class="w-full bg-background text-foreground pt-18 sm:pt-20">
-        <slot />
-    </main>
-    <FooterSection />
+    <!-- Racine unique obligatoire pour le persistent layout Inertia -->
+    <div class="flex min-h-screen flex-col bg-background text-foreground">
+        <Header />
+
+        <!-- main prend tout l'espace restant -->
+        <main class="w-full flex-1 pt-18 sm:pt-20">
+            <slot />
+        </main>
+
+        <FooterSection />
+    </div>
 </template>

@@ -7,7 +7,7 @@ import { register } from '@/routes';
 import HeroSection from '@/components/myComponentProject/HeroSection.vue';
 import AboutSection from '@/components/myComponentProject/AboutSection.vue';
 import GallerySection from '@/components/myComponentProject/GallerySection.vue';
-import FooterActions from '@/components/myComponentProject/FooterActions.vue';
+
 import FooterSection from '@/components/myComponentProject/FooterSection.vue';
 import AppLoader from '@/components/myComponentProject/AppLoader.vue';
 
