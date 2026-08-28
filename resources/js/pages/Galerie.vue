@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, watch, onMounted, onUnmounted } from 'vue';
 import axios from 'axios';
 import { X, Maximize2, Loader2 } from '@lucide/vue';
 import PublicLayout from '@/layouts/PublicLayout.vue'; // 🟢 Casse corrigée ("Layouts")
@@ -18,7 +18,16 @@ const props = defineProps({
     seed: [Number, String],
 });
 
+// const items = ref([...props.photos]);
 const items = ref([...props.photos]);
+
+// Synchroniser les items si les props changent au rechargement de page
+watch(
+    () => props.photos,
+    (newPhotos) => {
+        items.value = [...newPhotos];
+    },
+);
 const selectedCategory = ref(props.currentCategory || 'all');
 const hasMoreState = ref(props.hasMore);
 const page = ref(props.currentPage || 1);
@@ -171,7 +180,7 @@ const closeLightbox = () => {
             </div>
 
             <div
-                class="columns-1 gap-4 space-y-4 sm:columns-2 md:columns-3 lg:columns-4"
+                class="columns-2 gap-3 space-y-3 sm:columns-2 sm:gap-4 sm:space-y-4 md:columns-3 lg:columns-4 xl:columns-5"
             >
                 <div
                     v-for="photo in items"

@@ -14,8 +14,6 @@ Route::get('/agence', [AgenceController::class, 'index'])->name('agence');
 Route::get('/prestations', [PrestationController::class, 'index'])->name('prestation');
 
 Route::inertia('/realisations', 'Realisations')->name('realisations');
-// Route::inertia('/galerie', 'Galerie')->name('galerie');
-// Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index');
 
 // Route Inertia pour la page HTML
 Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index');

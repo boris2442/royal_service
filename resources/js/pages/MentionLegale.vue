@@ -182,7 +182,7 @@ const definitions: Definition[] = [
                                     Responsable publication :
                                 </p>
                                 <p>
-                                   Aubin Boris Simo
+                                    Aubin Boris Simo
                                     <a
                                         href="mailto:aubinborissimotsebo@gmail.com"
                                         class="ml-1 text-[var(--primary)] hover:underline"
@@ -321,9 +321,9 @@ const definitions: Definition[] = [
                     <p>
                         Le site
                         <a
-                            href="https://roralservice/"
+                            href="https://royalservice/"
                             class="text-[var(--primary)] hover:underline"
-                            >https://roralservice/</a
+                            >https://royalservice/</a
                         >
                         est protégé par les lois sur la propriété
                         intellectuelle. Le Client s'engage à ne pas réutiliser,

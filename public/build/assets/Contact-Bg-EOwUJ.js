@@ -1,1 +1,0 @@
-import{Gt as e,Z as t,ot as n}from"./dist-Dx57nUcf.js";import{t as r}from"./app-DwAMFF_8.js";var i=n({layout:r,__name:`Contact`,setup(n){return(n,r)=>(e(),t(`h1`,null,`Contact`))}});export{i as default};

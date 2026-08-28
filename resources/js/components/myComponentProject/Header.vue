@@ -152,7 +152,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 import { Link, usePage } from '@inertiajs/vue3';
-
+const page = usePage();
 
 
 
@@ -167,7 +167,7 @@ import {
 } from '@lucide/vue';
 import FloatingActions from './FloatingActions.vue';
 
-const page = usePage();
+
 
 const desktopNavigation = [
     { label: 'Prestations', href: '/prestations', icon: Sparkles },
