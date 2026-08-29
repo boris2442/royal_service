@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed right-3 bottom-8 z-50 flex flex-col items-center gap-3">
+    <div class="fixed right-2 bottom-16 z-50 flex flex-col items-center gap-3">
         <!-- Bouton Retour en Haut -->
         <Transition
             enter-active-class="transition-all duration-300 ease-out"
@@ -25,7 +25,7 @@
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contacter ETS ROYAL Service sur WhatsApp"
-            class="group relative flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl transition-all duration-300 hover:scale-110 active:scale-95"
+            class="group relative flex h-10 w-10 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl transition-all duration-300 hover:scale-110 active:scale-95"
         >
             <!-- Effet d'onde en arrière-plan -->
             <span
@@ -41,7 +41,7 @@
 
             <!-- Icône WhatsApp -->
             <svg
-                class="relative z-10 h-7 w-7 fill-current"
+                class="relative z-10 h-5 w-5 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
             >

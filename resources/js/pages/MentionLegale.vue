@@ -50,12 +50,12 @@ const definitions: Definition[] = [
     {
         term: 'Informations personnelles :',
         description:
-            "Données permettant l'identification directe ou indirecte des personnes physiques, conformément à la loi n° 78-17 du 6 janvier 1978.",
+            "Données permettant l'identification directe ou indirecte des personnes physiques, conformément à la loi ",
     },
     {
         term: 'Données à caractère personnel :',
         description:
-            'Termes définis par le Règlement Général sur la Protection des Données (RGPD : n° 2016-679).',
+            'Termes définis par le Règlement Général sur la Protection des Données .',
     },
 ];
 </script>
@@ -136,14 +136,14 @@ const definitions: Definition[] = [
                                     class="font-medium text-[var(--foreground)]"
                                     >Capital social :</strong
                                 >
-                                <!-- 1 000 000 FCFA -->
+                            
                             </li>
                             <li>
                                 <strong
                                     class="font-medium text-[var(--foreground)]"
                                     >RCCM :</strong
                                 >
-                                <!-- RC/BFM/2020/B/XXX -->
+            
                             </li>
                             <li>
                                 <strong
@@ -199,7 +199,7 @@ const definitions: Definition[] = [
                                     <a
                                         href="mailto:aubinborissimotsebo@gmail.com"
                                         class="ml-1 text-[var(--primary)] hover:underline"
-                                        >aubinborissimotsebo@gmail.com</a
+                                        >237 679 13 51 77</a
                                     >
                                 </p>
                             </div>
@@ -208,7 +208,7 @@ const definitions: Definition[] = [
                                     DPO :
                                 </p>
                                 <p>
-                                    Aubin Boris Simo
+                           Aubin Boris Simo
                                     <a
                                         href="mailto:aubinborissimotsebo@gmail.com"
                                         class="ml-1 text-[var(--primary)] hover:underline"
@@ -236,7 +236,7 @@ const definitions: Definition[] = [
                         >
                             <li class="flex items-center gap-2">
                                 <Phone class="h-4 w-4 text-[var(--primary)]" />
-                                <span>+237 679 13 51 77</span>
+                                <span>+237 696 94 33 61</span>
                             </li>
                             <li class="flex items-center gap-2">
                                 <Mail class="h-4 w-4 text-[var(--primary)]" />

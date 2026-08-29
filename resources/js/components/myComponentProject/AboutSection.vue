@@ -28,7 +28,7 @@
                     <Icon icon="mdi:linkedin" class="h-5 w-5" />
                 </a>
                 <a
-                    href="#"
+                    href="https://wa.me/237696943361"
                     class="transition-colors hover:text-secondary"
                     aria-label="WhatsApp"
                 >

@@ -233,7 +233,7 @@ const sections: Section[] = [
                         class="space-y-2 rounded-[var(--radius)] border border-[var(--border)] bg-[var(--background)] p-5 text-sm"
                     >
                         <p class="font-bold text-[var(--foreground)]">
-                            Aubin Boris Aubin
+                            Aubin Boris Simo
                         </p>
                         <p
                             class="text-xs font-medium text-[var(--muted-foreground)]"

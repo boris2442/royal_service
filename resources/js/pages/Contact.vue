@@ -70,7 +70,7 @@ const faqs = [
             <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
                 <!-- CARTE 1 : WHATSAPP -->
                 <a
-                    href="https://wa.me/237000000000?text=Bonjour,%20j'aimerais%20discuter%20d'un%20projet."
+                    href="https://wa.me/237696943361?text=Bonjour,%20j'aimerais%20discuter%20d'un%20projet."
                     target="_blank"
                     class="group relative flex flex-col justify-between space-y-6 overflow-hidden rounded-[var(--radius)] border border-[var(--border)] bg-[var(--card)] p-8 transition-all duration-300 hover:border-emerald-500/50"
                 >
@@ -188,7 +188,7 @@ const faqs = [
                     <div
                         class="flex items-center justify-between border-t border-[var(--border)] pt-4 text-sm font-semibold text-[var(--royal-gold)]"
                     >
-                        <span>+237 600 00 00 00</span>
+                        <span>+237 696 94 33 61</span>
                         <ArrowUpRight
                             class="h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
                         />
@@ -247,7 +247,7 @@ const faqs = [
                                 href="#"
                                 class="text-[var(--muted-foreground)] transition-colors hover:text-[var(--primary)]"
                             >
-                                <Icon icon="mdi:github" class="h-4 w-4" />
+                                <Icon icon="mdi:facebook" class="h-4 w-4" />
                             </a>
                         </div>
                     </div>

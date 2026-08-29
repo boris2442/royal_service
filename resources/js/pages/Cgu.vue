@@ -29,7 +29,7 @@ const articles: Article[] = [
         id: 2,
         title: 'Article 2 : Mentions légales',
         content:
-            'Le présent site est édité par Service SARL, société à responsabilité limitée au capital de 1 000 000 FCFA, immatriculée au Registre du Commerce et du Crédit Mobilier de Bafoussam.',
+            'Le présent site est édité par Service SARL, société à responsabilité limitée à un capital, immatriculée au Registre du Commerce et du Crédit Mobilier de Banganté.',
     },
     {
         id: 3,
