@@ -154,8 +154,6 @@ import { ref, onMounted, onUnmounted } from 'vue';
 import { Link, usePage } from '@inertiajs/vue3';
 const page = usePage();
 
-
-
 import {
     Sparkles,
     Building2,
@@ -167,13 +165,11 @@ import {
 } from '@lucide/vue';
 import FloatingActions from './FloatingActions.vue';
 
-
-
 const desktopNavigation = [
+    { label: 'Galerie', href: '/galerie', icon: Images },
     { label: 'Prestations', href: '/prestations', icon: Sparkles },
     { label: "L'Agence", href: '/agence', icon: Building2 },
     { label: 'Réalisations', href: '/realisations', icon: GalleryHorizontal },
-    { label: 'Galerie', href: '/galerie', icon: Images },
     { label: 'Restaurant', href: '/restaurant', icon: Utensils },
     { label: 'Contact', href: '/contact', icon: Mail },
 ];
@@ -184,6 +180,12 @@ const mobileTopNavigation = [
 ];
 
 const mobileBottomNavigation = [
+    {
+        label: 'Galerie',
+        shortLabel: 'Galerie',
+        href: '/galerie',
+        icon: Images,
+    },
     {
         label: 'Prestations',
         shortLabel: 'Prestat.',
@@ -201,12 +203,6 @@ const mobileBottomNavigation = [
         shortLabel: 'Resto',
         href: '/restaurant',
         icon: Utensils,
-    },
-    {
-        label: 'Galerie',
-        shortLabel: 'Galerie',
-        href: '/galerie',
-        icon: Images,
     },
 ];
 

@@ -136,14 +136,12 @@ const definitions: Definition[] = [
                                     class="font-medium text-[var(--foreground)]"
                                     >Capital social :</strong
                                 >
-                            
                             </li>
                             <li>
                                 <strong
                                     class="font-medium text-[var(--foreground)]"
                                     >RCCM :</strong
                                 >
-            
                             </li>
                             <li>
                                 <strong
@@ -208,7 +206,7 @@ const definitions: Definition[] = [
                                     DPO :
                                 </p>
                                 <p>
-                           Aubin Boris Simo
+                                    Aubin Boris Simo
                                     <a
                                         href="mailto:aubinborissimotsebo@gmail.com"
                                         class="ml-1 text-[var(--primary)] hover:underline"

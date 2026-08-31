@@ -126,7 +126,7 @@ const services = ref([
         title: 'Décoration & Scénographie',
         description:
             'Habillage de salles, trônes des mariés, décoration florale, draperies et jeux de lumière sur-mesure.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/decoration.jpg',
         badge: 'Incontournable',
         link: '#contact',
     },
@@ -135,7 +135,7 @@ const services = ref([
         title: 'Service Traiteur & Cuisiniers',
         description:
             'Buffets gastronomiques et plats traditionnels préparés par nos chefs cuisiniers chevronnés.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/cuisinier.jpg',
         link: '#contact',
     },
     {
@@ -143,23 +143,16 @@ const services = ref([
         title: 'Location de Chaises, Mobilier & Bâches',
         description:
             'Bâches étanches, tentes, chaises VIP, tables et matériel complet pour équiper vos lieux de réception.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/chaise.jpg',
         link: '#contact',
     },
-    {
-        id: 4,
-        title: 'Service Hôtellerie & Hébergement',
-        description:
-            'Gestion, réservation et accueil de vos invités dans des infrastructures hôtelières partenaires d’exception.',
-        image: '/images/services/decoration.png',
-        link: '#contact',
-    },
+  
     {
         id: 5,
         title: 'Aménagement d’Espaces Verts',
         description:
             'Paysagisme événementiel et mise en valeur végétale des jardins pour vos réceptions en plein air.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/spacegrenn.jpg',
         badge: 'Nouveau',
         link: '#contact',
     },
@@ -168,7 +161,7 @@ const services = ref([
         title: 'Hôtesses & Serveurs',
         description:
             'Personnel de service qualifié et élégant pour l’accueil, le protocole et le service à table.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/hotesse.jpg',
         link: '#contact',
     },
     {
@@ -176,7 +169,7 @@ const services = ref([
         title: 'Sonorisation, DJ & Éclairage',
         description:
             'Animation musicale dynamique, sonorisation haute définition et effets spéciaux (fumée lourde, étincelles).',
-        image: '/images/services/decoration.png',
+        image: '/images/services/decoration.jpg',
         link: '#contact',
     },
     {
@@ -184,7 +177,7 @@ const services = ref([
         title: 'Maître de Cérémonie (MC)',
         description:
             'Animateurs charismatiques pour orchestrer le déroulement de votre événement avec prestige.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/decoration.jpg',
         link: '#contact',
     },
     {
@@ -192,7 +185,7 @@ const services = ref([
         title: 'Bar à Cocktails & Pauses Café',
         description:
             'Service de rafraîchissements, cocktails créatifs avec barmans et pauses café pour vos réceptions.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/decoration.jpg',
         link: '#contact',
     },
     {
@@ -200,7 +193,7 @@ const services = ref([
         title: 'Organisation Clé en Main',
         description:
             'Prise en charge globale et coordination de A à Z de vos mariages, anniversaires et cérémonies.',
-        image: '/images/services/decoration.png',
+        image: '/images/services/organisation.jpg',
         badge: 'Populaire',
         link: '#contact',
     },

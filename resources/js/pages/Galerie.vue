@@ -206,7 +206,7 @@ const closeLightbox = () => {
                         <div
                             class="mt-1 flex items-center justify-between text-white"
                         >
-                            <span class="text-xs font-medium">Agrandir</span>
+                            <span class="text-xs font-medium"></span>
                             <Maximize2 class="h-4 w-4 text-secondary" />
                         </div>
                     </div>

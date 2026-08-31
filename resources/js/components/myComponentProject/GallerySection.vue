@@ -68,48 +68,48 @@ import { Images } from '@lucide/vue';
 import { Link } from '@inertiajs/vue3';
 const galleryItems = [
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image.jpg',
         alt: 'Composition florale et bouquet de roses',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image1.jpg',
         alt: 'Véhicule de prestige pour cortège',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image2.jpg',
         alt: 'Service traiteur et rafraîchissements',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image3.jpg',
         alt: 'Dressage de table de réception',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image4.jpg',
         alt: 'Location de chaises de cérémonie',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image5.jpg',
         alt: 'Service d accueil et protocole',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image6.jpg',
         alt: 'Aménagement extérieur et chaises bois',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image7.jpg',
         alt: 'Animation musicale et régie son',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image8.jpg',
         alt: 'Équipe d animation et musique',
     },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image9.jpg',
         alt: 'Mise en place événement en plein air',
     },
-    { image: '/images/gallery/image.png', alt: 'Véhicule VIP pour événement' },
+    { image: '/images/gallery/image10.jpg', alt: 'Véhicule VIP pour événement' },
     {
-        image: '/images/gallery/image.png',
+        image: '/images/gallery/image11.jpg',
         alt: 'Spectacle et animation cracheur de feu',
     },
 ];

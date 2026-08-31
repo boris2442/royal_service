@@ -19,7 +19,7 @@
                     class="text-4xl font-black tracking-wider text-secondary sm:text-6xl lg:text-7xl"
                 >
                     ETS ROYAL
-                    <span class="serviceFont text-primary">Service</span>
+                    <span class="serviceFont text-white">Service</span>
                 </h1>
 
                 <p
@@ -39,12 +39,12 @@
                 <div
                     class="flex flex-wrap items-center justify-center gap-4 pt-4"
                 >
-                    <a
-                        href="#services"
+                    <Link
+                        href="/prestations"
                         class="rounded-full bg-secondary px-7 py-3.5 text-sm font-bold text-secondary-foreground shadow-lg transition-all duration-300 hover:scale-105 hover:bg-secondary-hover"
                     >
                         Découvrir nos services
-                    </a>
+                    </Link>
                     <a
                         href="https://wa.me/237696943361"
                         target="_blank"
@@ -140,7 +140,7 @@
                             class="h-44 overflow-hidden rounded-xl bg-muted shadow-md sm:h-56"
                         >
                             <img
-                                src="/images/agency/about.png"
+                                src="/images/agency/about1.jpg"
                                 alt="Décoration Royal Service"
                                 class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                             />
@@ -149,7 +149,7 @@
                             class="h-32 overflow-hidden rounded-xl bg-muted shadow-md sm:h-40"
                         >
                             <img
-                                src="/images/agency/about.png"
+                                src="/images/agency/about2.jpg"
                                 alt="Service Traiteur"
                                 class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                             />
@@ -160,7 +160,7 @@
                             class="h-32 overflow-hidden rounded-xl bg-muted shadow-md sm:h-40"
                         >
                             <img
-                                src="/images/agency/about.png"
+                                src="/images/agency/about3.jpg"
                                 alt="Animation DJ & Lumières"
                                 class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                             />
@@ -169,7 +169,7 @@
                             class="h-44 overflow-hidden rounded-xl bg-muted shadow-md sm:h-56"
                         >
                             <img
-                                src="/images/agency/about.png"
+                                src="/images/agency/about4.jpg"
                                 alt="Buffet Réception"
                                 class="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
                             />
@@ -371,7 +371,7 @@
         </section>
 
         <!-- 7. NOS RÉALISATIONS -->
-        <section class="bg-muted/30 px-4 py-16 sm:px-6 lg:px-8">
+        <!-- <section class="bg-muted/30 px-4 py-16 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-7xl space-y-10">
                 <div class="space-y-2 text-center">
                     <h2
@@ -385,7 +385,7 @@
                     </p>
                 </div>
 
-                <!-- Grille d'images fluide -->
+                
                 <div
                     class="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4"
                 >
@@ -425,7 +425,9 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        <GallerySection />
 
         <!-- 8. BANNER CALL TO ACTION (FOOTER DE PAGE) -->
         <section
@@ -482,6 +484,9 @@
 <script setup>
 import { ref } from 'vue';
 import PublicLayout from '@/layouts/PublicLayout.vue';
+import GallerySection from '@/components/myComponentProject/GallerySection.vue';
+import { Link } from '@inertiajs/vue3';
+// import RealisationSection from '@/components/myComponentProject/'
 // 2. Déclarer le Persistent Layout
 defineOptions({
     layout: PublicLayout,
@@ -608,36 +613,36 @@ const team = ref([
         photo: '/images/team/derick.jpg',
     },
     {
-        name: 'Djontso Gaelle',
+        name: 'Tchoumkeu Rikiatou',
         role: 'Directrice Générale',
-        photo: '/images/team/derick.jpg',
+        photo: '/images/team/rikia.jpg',
     },
     {
-        name: 'Falone',
-        role: 'Directrice des Ressources Humaines',
-        photo: '/images/team/derick.jpg',
+        name: 'Chava Idriss',
+        role: 'Directeur des Ressources ',
+        photo: '/images/team/idriss.jpg',
     },
-    {
-        name: 'Ndoukeu Tchouteng',
-        role: 'Assistant Comptable',
-        photo: '/images/team/derick.jpg',
-    },
-    {
-        name: 'Mouafo Farel',
-        role: 'Infographe & Designer',
-        photo: '/images/team/derick.jpg',
-    },
+    // {
+    //     name: 'Ndoukeu Tchouteng',
+    //     role: 'Assistant Comptable',
+    //     photo: '/images/team/derick.jpg',
+    // },
+    // {
+    //     name: 'Mouafo Farel',
+    //     role: 'Infographe & Designer',
+    //     photo: '/images/team/derick.jpg',
+    // },
 ]);
 
 // Galerie
 const gallery = ref([
-    '/images/agency/about.png',
-    '/images/agency/about.png',
-    '/images/agency/about.png',
-    '/images/agency/about.png',
-    '/images/agency/about.png',
-    '/images/agency/about.png',
-    '/images/agency/about.png',
-    '/images/agency/about.png',
+    '/images/agency/about1.jpg',
+    '/images/agency/about2.jpg',
+    '/images/agency/about3.jpg',
+    '/images/agency/about4.jpg',
+    '/images/agency/about1.jpg',
+    '/images/agency/about2.jpg',
+    '/images/agency/about3.jpg',
+    '/images/agency/about4.jpg',
 ]);
 </script>
