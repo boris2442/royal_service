@@ -1,6 +1,6 @@
 <template>
     <section
-        class="relative flex min-h-[80vh] w-full items-center justify-center overflow-hidden bg-background pt-10 pb-16 text-foreground transition-colors duration-500 sm:pt-24 sm:pb-20 imagebg"
+        class="imagebg relative flex min-h-[80vh] w-full items-center justify-center overflow-hidden bg-background pt-10 pb-16 text-foreground transition-colors duration-500 sm:pt-24 sm:pb-20"
     >
         <!-- =========================================================
              ARRIÈRE-PLAN : HALOS & OMBRES DE LUXE
@@ -85,7 +85,7 @@
              CONTENU PRINCIPAL HERO
         ========================================================== -->
         <div
-            class="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 "
+            class="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8"
         >
             <div
                 class="grid grid-cols-1 items-center gap-8 lg:grid-cols-12 lg:gap-12"
@@ -114,9 +114,8 @@
                         </span>
                     </h1>
 
-           
                     <p
-                        class="max-w-2xl text-sm leading-relaxed font-light md:text-foreground/80 sm:text-base md:text-lg text-white"
+                        class="max-w-2xl text-sm leading-relaxed font-light text-white sm:text-base md:text-lg md:text-foreground/80"
                     >
                         Du service traiteur gastronomique à la scénographie
                         complète de vos réceptions. Nous orchestrons vos grands
