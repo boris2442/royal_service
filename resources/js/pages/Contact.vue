@@ -161,7 +161,7 @@ const faqs = [
 
                 <!-- CARTE 3 : APPEL / RENDEZ-VOUS -->
                 <a
-                    href="tel:+237000000000"
+                    href="tel:+237696943361"
                     class="group flex flex-col justify-between space-y-6 rounded-[var(--radius)] border border-[var(--border)] bg-[var(--card)] p-8 transition-all duration-300 hover:border-[var(--royal-gold)]"
                 >
                     <div class="space-y-4">

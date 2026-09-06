@@ -167,9 +167,13 @@
                             class="relative flex flex-col items-center justify-center space-y-4 rounded-3xl border border-border bg-card/80 p-8 text-center shadow-xl backdrop-blur-xl"
                         >
                             <div
-                                class="flex h-16 w-16 items-center justify-center rounded-full border border-secondary/30 bg-secondary/15 text-secondary"
+                                class="flex h-16 w-16 items-center justify-center rounded-full border border-secondary/30 bg-secondary/15"
                             >
-                                <Award class="h-8 w-8" />
+                                <img
+                                    src="/logo.jpeg"
+                                    alt="Royal Services"
+                                    class="h-16 w-16 rounded-full object-cover transition-transform duration-300 hover:scale-110"
+                                />
                             </div>
                             <div>
                                 <h3

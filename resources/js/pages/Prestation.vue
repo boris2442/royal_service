@@ -128,7 +128,7 @@ const services = ref([
             'Habillage de salles, trônes des mariés, décoration florale, draperies et jeux de lumière sur-mesure.',
         image: '/images/services/decoration.jpg',
         badge: 'Incontournable',
-        link: '#contact',
+        link: '/decoration-scenographie',
     },
     {
         id: 2,
@@ -136,7 +136,7 @@ const services = ref([
         description:
             'Buffets gastronomiques et plats traditionnels préparés par nos chefs cuisiniers chevronnés.',
         image: '/images/services/cuisinier.jpg',
-        link: '#contact',
+        link: '/service-traiteur-cuisiniers',
     },
     {
         id: 3,
@@ -144,9 +144,9 @@ const services = ref([
         description:
             'Bâches étanches, tentes, chaises VIP, tables et matériel complet pour équiper vos lieux de réception.',
         image: '/images/services/chaise.jpg',
-        link: '#contact',
+        link: '/location-chaises-baches',
     },
-  
+
     {
         id: 5,
         title: 'Aménagement d’Espaces Verts',
@@ -154,7 +154,7 @@ const services = ref([
             'Paysagisme événementiel et mise en valeur végétale des jardins pour vos réceptions en plein air.',
         image: '/images/services/spacegrenn.jpg',
         badge: 'Nouveau',
-        link: '#contact',
+        link: '/green-space',
     },
     {
         id: 6,
@@ -162,7 +162,7 @@ const services = ref([
         description:
             'Personnel de service qualifié et élégant pour l’accueil, le protocole et le service à table.',
         image: '/images/services/hotesse.jpg',
-        link: '#contact',
+        link: '/hotesses-serveurs',
     },
     {
         id: 7,
@@ -170,7 +170,7 @@ const services = ref([
         description:
             'Animation musicale dynamique, sonorisation haute définition et effets spéciaux (fumée lourde, étincelles).',
         image: '/images/services/decoration.jpg',
-        link: '#contact',
+        link: '/sonnorisation',
     },
     {
         id: 8,
@@ -178,7 +178,7 @@ const services = ref([
         description:
             'Animateurs charismatiques pour orchestrer le déroulement de votre événement avec prestige.',
         image: '/images/services/decoration.jpg',
-        link: '#contact',
+        link: '/maitre-ceremonie',
     },
     {
         id: 9,
@@ -186,7 +186,7 @@ const services = ref([
         description:
             'Service de rafraîchissements, cocktails créatifs avec barmans et pauses café pour vos réceptions.',
         image: '/images/services/decoration.jpg',
-        link: '#contact',
+        link: '/bar-a-cocktails',
     },
     {
         id: 10,
@@ -195,7 +195,7 @@ const services = ref([
             'Prise en charge globale et coordination de A à Z de vos mariages, anniversaires et cérémonies.',
         image: '/images/services/organisation.jpg',
         badge: 'Populaire',
-        link: '#contact',
+        link: '/organisation-evenements',
     },
 ]);
 </script>

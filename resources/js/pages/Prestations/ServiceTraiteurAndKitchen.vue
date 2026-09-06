@@ -1,0 +1,23 @@
+<script setup>
+import PrestationShowcase from '@/components/Prestations/PrestationShowcase.vue';
+
+const inclusions = [
+    'Buffets gastronomiques et plats traditionnels préparés par nos chefs cuisiniers chevronnés',
+    'Menus personnalisés pour répondre à vos besoins et préférences alimentaires',
+    'Service de traiteur pour mariages, anniversaires, événements d’entreprise et plus encore',
+    'Options de présentation élégantes et professionnelles pour vos plats',
+    'Livraison, installation et service sur place pour une expérience sans stress',
+    'Tarifs compétitifs et forfaits adaptés à votre budget',
+];
+</script>
+
+<template>
+    <PrestationShowcase
+        title="Service Traiteur & Cuisiniers "
+        image-folder="ServiceTraiteurAndKitchen"
+        description="Nous vous proposons des services de traiteur et de cuisiniers pour vos événements. Nos chefs expérimentés préparent des plats gastronomiques et traditionnels, adaptés à vos goûts et à votre budget. Que ce soit pour un mariage, un anniversaire ou un événement d'entreprise, nous assurons une expérience culinaire exceptionnelle."
+        highlight="Des plats gastronomiques et traditionnels préparés par nos chefs expérimentés pour vos événements."
+        :inclusions="inclusions"
+        whatsapp="237696943361"
+    />
+</template>

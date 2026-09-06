@@ -11,9 +11,13 @@
                 <div class="space-y-4">
                     <div class="flex items-center gap-3">
                         <div
-                            class="flex h-10 w-10 items-center justify-center rounded-full bg-primary font-bold text-primary-foreground shadow-sm"
+                            class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full bg-primary shadow-sm"
                         >
-                            RS
+                            <img
+                                src="/logo.jpeg"
+                                alt="Royal Services"
+                                class="h-full w-full object-cover"
+                            />
                         </div>
                         <div>
                             <h3
@@ -206,15 +210,21 @@
 
                 <!-- Liens Légaux -->
                 <div class="flex flex-wrap items-center justify-center gap-2">
-                    <Link href="/cgu" class="transition-colors hover:text-secondary"
+                    <Link
+                        href="/cgu"
+                        class="transition-colors hover:text-secondary"
                         >Conditions Générales</Link
                     >
                     <span>|</span>
-                    <Link href="/politique-confidentialite" class="transition-colors hover:text-secondary"
+                    <Link
+                        href="/politique-confidentialite"
+                        class="transition-colors hover:text-secondary"
                         >Politique de Confidentialité</Link
                     >
                     <span>|</span>
-                    <Link href="/mentions-legales" class="transition-colors hover:text-secondary"
+                    <Link
+                        href="/mentions-legales"
+                        class="transition-colors hover:text-secondary"
                         >Mentions Légales</Link
                     >
                 </div>
@@ -224,15 +234,7 @@
 </template>
 
 <script setup>
-import {
-    Star,
-    Calendar,
-    Users,
-    Phone,
-    Mail,
-    MapPin,
-    Heart,
-} from '@lucide/vue';
+import { Star, Calendar, Users, Phone, Mail, MapPin, Heart } from '@lucide/vue';
 import ThemeToggle from './ThemeToggle.vue';
 import { Link } from '@inertiajs/vue3';
 const navLinks = [

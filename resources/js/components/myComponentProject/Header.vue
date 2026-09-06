@@ -20,7 +20,7 @@
                 href="/"
                 class="group relative z-10 flex items-center gap-2.5"
             >
-                <div
+                <!-- <div
                     class="flex h-10 w-10 items-center justify-center rounded-full border transition-all duration-300 sm:h-11 sm:w-11"
                     :class="[
                         isScrolled
@@ -30,6 +30,21 @@
                 >
                     <Crown
                         class="h-5 w-5 transition-transform duration-300 group-hover:scale-110"
+                    />
+                </div> -->
+
+                <div
+                    class="flex h-10 w-10 items-center justify-center rounded-full border transition-all duration-300 sm:h-11 sm:w-11"
+                    :class="[
+                        isScrolled
+                            ? 'border-secondary/40 bg-primary'
+                            : 'border-secondary/40 bg-primary-dark',
+                    ]"
+                >
+                    <img
+                        src="/logo.jpeg"
+                        alt="Royal Services"
+                        class="h-10 w-10 object-cover transition-transform duration-300 group-hover:scale-110 sm:h-11 sm:w-11 rounded-full"
                     />
                 </div>
 
